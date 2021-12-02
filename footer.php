@@ -1,6 +1,7 @@
-<?php wp_footer() ?>
+
 
 <div class="jumbotron">
+
 <div class="footermenu" ><?php
 wp_nav_menu( array( 
     'theme_location' => 'my-footer-menu', 
@@ -16,7 +17,7 @@ wp_nav_menu( array(
 </div>
 
   
-
+<?php wp_footer() ?>
   
       </body>
 </html>

@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php get_header()?>
 
   
 <?php if(have_posts()): ?>
@@ -58,6 +58,6 @@
 
   <?php endwhile; ?>
 <?php endif; ?>
-<iframe  width="100%" height="300"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=600&amp;height=300&amp;hl=en&amp;q=gl%20vardevej%20189%20Esbjerg+()&amp;t=h&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://billigstempel.de/'>Stempelautomaten</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=a660793c81d72a6174c0ff58f9c0f44d10052eae'></script>
+<iframe  width="100%" height="300"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=600&amp;height=300&amp;hl=en&amp;q=gl%20vardevej%20189%20Esbjerg+()&amp;t=h&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a class="Tysk" href='http://billigstempel.de/'>Stempelautomaten</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=a660793c81d72a6174c0ff58f9c0f44d10052eae'></script>
 
-<?php get_footer(); ?>
+<?php get_footer() ?>

@@ -25,5 +25,4 @@ function wpb_custom_new_menu() {
     );
   }
   add_action( 'init', 'footer_custom_new_menu' );
-
 ?>

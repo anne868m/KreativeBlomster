@@ -11,7 +11,7 @@
     <h1> <?php the_field("navn") ?> </h1>
    <p class="tekst"> <?php the_field("beskrivelse") ?> </p>
     <p class="pris"> <?php the_field("pris") ?> </p>
-    <button class="knap">Bestil Nu</button>
+    <button class="knap" onclick="window.location.href='KreativeBlomster/betaling/'">Bestil Nu</button>
 </div>
 </div>
   <?php endwhile; ?>
