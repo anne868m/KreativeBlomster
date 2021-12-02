@@ -1,0 +1,368 @@
+/*
+Theme Name: Kreative Blomster
+Author: Louise, Anne & Emma
+Description: Dette er vores side til Kreative Blomster
+Version: 0.1
+*/
+@media only screen and (max-width: 768px) {
+html, body {
+	margin: 0;
+	padding: 0;
+}
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+@font-face {
+  font-family: "Lora";
+   src: url("//fonts.googleapis.com/css?family=Lora");
+}
+
+a {
+  color: #fcfcfc;
+  outline: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+.logo {
+  padding: 10px;
+width: 200px;
+height: 45px;
+
+}
+
+.menu {
+ display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #a15e49;  
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+align-content: space-around;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+  padding: 10px;
+}
+
+.menu li a {
+  display: block;
+  color: #e2e2e2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li a:hover {
+  background-color: #884834;
+}
+
+.footermenu {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #a15e49;  
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: space-around;
+}
+
+.footermenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footermenu li {
+  float: left;
+}
+
+.footermenu li a {
+  display: block;
+  color: #e2e2e2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footermenu li a:hover {
+  background-color: #884834;
+}
+
+.ting {
+ display: flex;
+ flex-direction: row;
+padding: 10px;
+}
+
+.forside {
+  display: flex;
+ align-content: stretch;
+ margin: 10px;
+ padding: 10px;
+ gap: 10px;
+}
+
+.film {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.video{
+  width: 560px; 
+  height: 315px;
+}
+
+.omos2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.omos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #884834;
+  width: 50%;
+  height: 450px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #fcfcfc;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  align-items: center;
+}
+
+
+
+.aben {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #667761;
+  width: 50%;
+  height: 450px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #fcfcfc;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.oplysninger {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.info3 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.oplysninger1 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: beige;
+}
+
+.omblomst {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ text-align: center;
+  background-color: #e2d6a7;
+  height: 200px;
+}
+
+.tekstblomst {
+  width: 50%;
+}
+
+.img {
+ height: 300px;
+ width: 250px;
+ padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+}
+
+h1 {
+  font-family: 'Lora';
+font-size: 30px;
+font-weight: bolder;
+color: #252323;
+
+}
+
+.omos4 {
+  font-family: 'Lora';
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.tekst {
+  font-family: 'Lora', serif;
+font-size: 15px;
+font-weight: normal;
+color: #252323;
+
+}
+
+.tekst1 {
+  font-family: 'Lora', serif;
+font-size: 15px;
+font-weight: normal;
+color: #fcfcfc;
+text-align: center;
+width: 100%;
+}
+
+.tekstom {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #fcfcfc;
+  text-align: center;
+  width: 100%;
+}
+
+.tekst3 {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #252323;
+  }
+
+
+
+.pris {
+  font-family: 'Lora', serif;
+font-size: 25px;
+font-weight: bold;
+color: #252323;
+}
+
+.knap {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  background-color: #667761;
+  color: #e2e2e2;
+}
+
+.knap1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  background-color: #667761;
+  color: #e2e2e2;
+}
+
+.knap12 {
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+.bestilling {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 400px;
+}
+
+form {
+font-family:'Roboto', sans-serif;
+font-weight: bold;
+
+
+}
+/* footer */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	height: 300px; 
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+background-color: #a15e49; 
+flex-direction: column;
+}
+
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+ 
+}
+
+.info2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+h2, .tekst2 {
+  color: #e2e2e2;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 500px) {
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+}
